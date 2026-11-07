@@ -1,7 +1,16 @@
 package com.example.model;
 
-public class Especie {
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
+@Entity 
+@Table (name = "Especies")
+public class Especie {
+    @Id 
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
     private long id_especie;
     private String nombre;
     private long id_tipo;
