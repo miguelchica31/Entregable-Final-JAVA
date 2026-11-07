@@ -1,5 +1,17 @@
 package com.example;
 
+import java.time.LocalDateTime;
+
+import com.example.model.Alimentacion;
+import com.example.model.Caracteristicas;
+import com.example.model.Especie;
+import com.example.model.EspecieCaracteristicas;
+import com.example.model.EspecieHabitad;
+import com.example.model.EstadoConservacion;
+import com.example.model.Habitad;
+import com.example.model.TipoAnimal;
+import com.example.model.Usuario;
+
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;
